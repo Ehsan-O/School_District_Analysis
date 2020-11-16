@@ -16,7 +16,6 @@ We have been provided with two tabular data files ([schools_complete.csv](Resour
 |*student_complete*|
 :--:
 |<img src="screen_shots/Student_csv.png" width="400" style="border: 1px solid black">|
-&nbsp;
 </center>
 &nbsp;
 we can find the name of the schools, their type, number of students of each school and their budget in school file, while in the student file we have the following information: student names and their gender, what grade trey are in, their school name and their reading and math scores.  
@@ -48,15 +47,13 @@ To perform this analysis we used Jupyter notebook, Python and pandas library. Fi
 |*student_data_dataframe*|
 :--:
 |<img src="screen_shots/student_df.png" width="650" style="border: 1px solid black">|
-&nbsp;
 </center>
-
+&nbsp;
 Then we searched for any missing or invalid data. there were no missing values in data frames, but as you can see in "student_data_datafarme" there is a student name with "Dr." as prefix, so we had to search the data for any names containing a prefix or suffix and correct the value. the file "[cleaning_student_names.ipynb](cleaning_student_names.ipynb)" contains the code we wrote to clean the student data frame.  
 In the next step using ".merge" method in pandas we tried to create a unified data frame as below (called: "school complete data):
 &nbsp;
 
 &nbsp;
-
 <center><img src="screen_shots/school_data_complete_df.png" width="900" style="border: 1px solid black"></center>
 
 &nbsp;
