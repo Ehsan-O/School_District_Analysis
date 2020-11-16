@@ -13,12 +13,12 @@ We have been provided with two tabular data files ([schools_complete.csv](Resour
 :--:
 |<img src="screen_shots/School_csv.png" width="400" style="border: 1px solid black">|
 &nbsp;
-|*students_complete*|
+|*student_complete*|
 :--:
-|<img src="screen_shots/Student_csv.png" width="650" style="border: 1px solid black">|
+|<img src="screen_shots/Student_csv.png" width="400" style="border: 1px solid black">|
+&nbsp;
 </center>
 &nbsp;
-
 we can find the name of the schools, their type, number of students of each school and their budget in school file, while in the student file we have the following information: student names and their gender, what grade trey are in, their school name and their reading and math scores.  
 we used the data we had in these files to perform some analysis and provide our client with the following information:
 
