@@ -118,16 +118,27 @@ Here, we are going to compare the results of our first analysis and the one we p
     - The only thing that changed in both tables after altering the source data is the result for the ninth grade in Thomas high school which is changed to " nan " (see images below)
         <center>
 
-        |   <font size="1">*Original Analysis*</font>  ||
-        |:-:|:-:|:-:|
-        | <font size="1">*Math Grades*</font>  | <font size="1">*Reading Grades*</font>  |
-        |  <img src="screen_shots/grade_math_befor_nan.png" width="500" style="border: 1px solid black"> |  <img src="screen_shots/grade_reading_befor_nan.png" width="500" style="border: 1px solid black"> | 
+        |<font size="1">*Original Analysis (Average Math Grade)*</font>|
+        |:--:|
+        |<img src="screen_shots/grade_math_befor_nan.png" width="300" style="border: 1px solid black">|
 
-        |  <font size="1">*After Removing Thomas High School nine graders scores*</font>   ||
-        |:-:|:-:|:-:|
-        | <font size="1">*Average Math Grades*</font>  | <font size="1">*Average Reading Grades*</font>  |
-        |  <img src="screen_shots/grade_math_after_nan.png" width="500" style="border: 1px solid black"> |  <img src="screen_shots/grade_reading_after_nan.png" width="500" style="border: 1px solid black"> | 
-        </center>
+        |<font size="1">*After Removing Thomas High School nine graders scores (Average Math Grade)*</font>|
+        :--:
+        |<img src="screen_shots/grade_math_after_nan.png" width="300" style="border: 1px solid black">|
+        </center> 
+
+        <center>
+
+        |<font size="1">*Original Analysis (Average Reading Grade)*</font>|
+        |:--:|
+        |<img src="screen_shots/grade_reading_befor_nan.png" width="300" style="border: 1px solid black">|
+
+        |<font size="1">*After Removing Thomas High School nine graders scores (Average Reading Grade)*</font>|
+        :--:
+        |<img src="screen_shots/grade_reading_after_nan.png" width="300" style="border: 1px solid black">|
+        </center>         
+
+
 &nbsp;
 - Schools performance based on different factors
     - Budget 
