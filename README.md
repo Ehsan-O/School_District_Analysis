@@ -49,6 +49,7 @@ To perform this analysis we used Jupyter notebook, Python and pandas library. Fi
 |<img src="screen_shots/student_df.png" width="650" style="border: 1px solid black">|
 </center>
 &nbsp;
+
 Then we searched for any missing or invalid data. there were no missing values in data frames, but as you can see in "student_data_datafarme" there is a student name with "Dr." as prefix, so we had to search the data for any names containing a prefix or suffix and correct the value. the file "[cleaning_student_names.ipynb](cleaning_student_names.ipynb)" contains the code we wrote to clean the student data frame.  
 In the next step using ".merge" method in pandas we tried to create a unified data frame as below (called: "school complete data):
 &nbsp;
