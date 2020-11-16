@@ -12,7 +12,7 @@ We have been provided with two tabular data files ([schools_complete.csv](Resour
 |*schools_complete*|
 :--:
 |<img src="screen_shots/School_csv.png" width="400" style="border: 1px solid black">|
-&nbsp;
+
 |*student_complete*|
 :--:
 |<img src="screen_shots/Student_csv.png" width="400" style="border: 1px solid black">|
@@ -43,7 +43,7 @@ To perform this analysis we used Jupyter notebook, Python and pandas library. Fi
 |*school_data_dataframe*|
 :--:
 |<img src="screen_shots/school_df.png" width="400" style="border: 1px solid black">|
-&nbsp;
+
 |*student_data_dataframe*|
 :--:
 |<img src="screen_shots/student_df.png" width="650" style="border: 1px solid black">|
